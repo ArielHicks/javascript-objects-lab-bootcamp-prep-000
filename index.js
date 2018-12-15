@@ -8,6 +8,6 @@ function updateObjectWithKeyAndValue(object, key, value){
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  recipes.prop = [1, 3]
+  recipes.prop = [1]
   return recipes
 }
